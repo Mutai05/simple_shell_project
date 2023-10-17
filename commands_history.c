@@ -4,9 +4,8 @@
  * get_history_file - gets the history file
  * @info: parameter struct
  *
- * Return: allocated string containg history file
+ * Return: allocated string containing the history file
  */
-
 char *get_history_file(info_t *info)
 {
 	char *buf, *dir;
@@ -103,10 +102,10 @@ int read_history(info_t *info)
 }
 
 /**
- * build_history_list - adds entry to a history linked list
+ * build_history_list - adds an entry to a history linked list
  * @info: Structure containing potential arguments. Used to maintain
  * @buf: buffer
- * @linecount: the history linecount, histcount
+ * @linecount: the history line count, histcount
  *
  * Return: Always 0
  */
