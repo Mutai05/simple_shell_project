@@ -1,12 +1,14 @@
 #include "header_file.h"
 
 /**
- **_memset - fills memory with a constant byte
- *@s: the pointer to the memory area
- *@b: the byte to fill *s with
- *@n: the amount of bytes to be filled
- *Return: (s) a pointer to the memory area s
+ * custom_realloc - Reallocates a block of memory.
+ * @ptr: Pointer to the previously allocated memory.
+ * @old_size: Size of the currently allocated memory block.
+ * @new_size: Size of the new memory block.
+ *
+ * Return: Pointer to the newly reallocated memory, or NULL on failure.
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
